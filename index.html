@@ -8,18 +8,21 @@
 <body>
 <div class="main">
     <div class="table">
-        <table></table>
+        <table>
+            <tr>
+            </tr>
+        </table>
     </div>
 
     <div class="tableForm">
-            <input class="inp" type="file">
+            <input class="inp" data-atr="img" type="file">
             <input class="inp" required type="text" placeholder="Країна">
             <input class="inp" required type="number" placeholder="Кількість ігор">
-            <input class="inp" required type="number" placeholder="Виграші">
-            <input class="inp" required type="number" placeholder="Нічия">
+            <input class="inp" required data-atr="win" type="number" placeholder="Виграші">
+            <input class="inp" required data-atr="draw" type="number" placeholder="Нічия">
             <input class="inp" required type="number" placeholder="Програші">
-            <input class="inp" required type="number" placeholder="Забиті голи">
-            <input class="inp" required type="number" placeholder="Пропущені голи">
+            <input class="inp" required data-atr="scored" type="number" placeholder="Забиті голи">
+            <input class="inp" required data-atr="missed" type="number" placeholder="Пропущені голи">
             <button class="btn">Відправити</button>
     </div>
 </div>

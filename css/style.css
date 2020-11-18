@@ -8,7 +8,7 @@ table{
     width: 800px;
 }
 
-form{
+.tableForm{
     display: flex;
     flex-direction: column;
     width: 200px;
