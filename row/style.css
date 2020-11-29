@@ -1,0 +1,87 @@
+.main {
+    width: 300px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blockListTeams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainBlockList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h2{
+    margin-right: 5px;
+}
+
+.rows {
+    counter-reset: schetchik;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    height: 20px;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.counter {
+    width: 20px;
+    height: 20px;
+    text-align: right;
+    counter-increment: schetchik;
+}
+
+.counter::before {
+    content: counter(schetchik);
+}
+
+.teamName {
+    margin: 0 5px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.btn {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    outline: none;
+}
+
+.plus {
+    margin: 10px 0;
+}
+
+.submit, .saveInLocal {
+    width: 30%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 252px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+input {
+    margin-bottom: 10px;
+}
+
